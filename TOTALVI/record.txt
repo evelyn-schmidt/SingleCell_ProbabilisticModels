@@ -1,0 +1,43 @@
+offline_model_2 written at datetime.now()
+ Total reference train time: 5611.366539955139
+451 query model written at datetime.now()
+ Total reference train time: 6605.650475740433
+730 query model written at 3228 ref written at offline_model_2 written at datetime.now()
+ Total reference train time: 47474.5113837719
+730 query model written at THis is a test 2023-11-03 15:15:32THis is a test 2023-11-03 15:17:12451 query model written at 3228 
+ref written at offline_model_2, NO BATCH KEY, written at 2023-11-03 18:59:14
+ Total reference train time: 12816.95541214943
+
+5_prime_model_query_2 written at 2023-11-03 19:05:22
+ Total query train time: 362.9601421356201
+
+offline_model_2, NO BATCH KEY, written at 2023-11-03 19:24:44
+ Total reference train time: 12799.035865306854
+
+5_prime_model_query_2 written at 2023-11-03 20:48:14
+ Total query train time: 4992.995676517487
+
+3228 ref written at 2023-11-03 23:00:23
+ Total reference train time: 10035.719934940338
+
+3228 ref written at 2023-11-04 10:17:33
+ Total reference train time: 40594.12672948837
+
+730 query model written at 2023-11-04 13:11:08
+ Total reference train time: 51028.47021627426
+
+730,451 query written at 2023-11-04 13:22:17
+ Total query train time: 11083.837982654572
+
+
+3228 ref written at 2023-11-07 23:41:56
+ Total 3228 ref train time: 5368.915765762329
+730,451 query written at 2023-11-08 01:38:06
+ Total 730,451 query train time: 6969.906139135361
+
+451 ref model written at 2023-11-08 00:33:12
+ Total 451 reference train time: 7478.737648963928
+3228 and 730 query written at 2023-11-08 00:41:56
+ 451 query train time: 524.0442962646484
+
+
