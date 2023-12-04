@@ -268,24 +268,6 @@ query.obs["ref_celltypes_unified"] = query.obs["seurat_clusters"].replace({
 query.obs["celltypes_unified_predicted"] = query.obs["celltype.l2"].replace({
     })
 
-
-ref_categories = set(query.obs["ref_celltypes_unified"].unique())
-predicted_categories = set(query.obs["celltypes_unified_predicted"].unique())
-
-common_categories = ref_categories.intersection(predicted_categories)
-
-if common_categories:
-    ref_matches = query.obs["ref_celltypes_unified"].isin(common_categories)
-    predicted_matches = query.obs["celltypes_unified_predicted"].isin(common_categories)
-
-    total_matches = np.sum(ref_matches & predicted_matches)
-    total_samples = len(query.obs)
-
-    accuracy = total_matches / total_samples
-    print("Acc: {}".format(accuracy))
-else:
-    print("NA")
-
 print("Acc: {}".format(np.mean(query.obs["ref_celltypes_unified"] == query.obs["celltypes_unified_predicted"])))
 
 # Get Accuaracy For Full Model
